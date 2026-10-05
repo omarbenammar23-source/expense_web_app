@@ -1,0 +1,2 @@
+ALTER TABLE expenses
+ADD COLUMN currency VARCHAR(8) NULL AFTER amount;

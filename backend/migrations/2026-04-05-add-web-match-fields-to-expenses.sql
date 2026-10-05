@@ -1,0 +1,5 @@
+ALTER TABLE expenses
+ADD COLUMN fraud_reason TEXT NULL,
+ADD COLUMN web_match_found BOOLEAN NOT NULL DEFAULT FALSE,
+ADD COLUMN web_match_count INT NOT NULL DEFAULT 0,
+ADD COLUMN web_match_sources TEXT NULL;
